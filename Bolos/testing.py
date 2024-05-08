@@ -17,7 +17,6 @@ class Frame:
     def is_spare(self):
         return len(self.rolls) == 2 and self.score() == 10
 
-
 class Game:
     def _init_(self):
         self.frames = [Frame() for _ in range(10)]
