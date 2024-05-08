@@ -1,5 +1,5 @@
 class Bolos:
-    def _init_(self):
+    def __init__(self):  # Corrected constructor method
         self.rolls = []
 
     def roll(self, pins):
