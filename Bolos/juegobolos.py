@@ -24,8 +24,8 @@ class Bolos:
                     total_score += self.frame_score(roll_index)
                     print(f"Frame {frame_number}: Score: {self.frame_score(roll_index)} Total: {total_score}")
                     roll_index += 2
-                #else:
-                #    break  # Salir del bucle si no hay lanzamientos suficientes
+            else:
+                break  # Salir del bucle si no hay lanzamientos suficientes
             frame_number += 1
 
         # Décimo frame especial
