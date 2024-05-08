@@ -1,4 +1,4 @@
 # Puntaje-en-juego-de-bolos
 Desarrollo de la aplicacion de bolos
 
-<image src="model/model.png" alt="Descripción de la imagen">
+<image src="ui/uml_bowling_game.png" alt="Descripción de la imagen">
